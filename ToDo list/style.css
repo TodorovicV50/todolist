@@ -1,0 +1,75 @@
+/* Grundlayout */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Überschrift */
+h1 {
+    text-align: center;
+    color: #2f855a;
+}
+
+/* Eingabebereich */
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Input */
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #38a169;
+    font-size: 16px;
+}
+
+/* Button */
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e53e3e;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c53030;
+}
+
+/* Tabelle */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Tabellenzeilen */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Erledigte To-dos */
+.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+    color: #718096;
+}
+
+/* Löschen-Button */
+td button {
+    background: none;
+    color: #e53e3e;
+    font-size: 16px;
+}
+
+td button:hover {
+    color: #9b2c2c;
+}

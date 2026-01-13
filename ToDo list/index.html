@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do Liste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>📝 To-do Liste</h1>
+ 
+    <div class="input-area">
+        <input id="input" type="text" placeholder="Neues To-do eingeben">
+        <button onclick="addTodo()">Hinzufügen</button>
+
+    </div>
+       <div class="filter-buttons">
+        <button onlick="setFilter('all')">Alle</button>
+        <button onlick="setFilter('open')">Offen</button>
+        <button onlick="setFilter('done')">Erledigt</button>
+
+    </div>
+    <table id="table"></table>
+
+    <script src="ToDoList.js"></script>
+</body>
+</html>
